@@ -1,0 +1,476 @@
+
+/* first back start*/
+/* #back
+{
+   padding-top: 3% ;
+   width: 100vw;
+   height: 100vh;
+   background-image: url("https://i.ibb.co/6HCznwD/ppp.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 0.9;
+}
+
+#name
+{
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: large;
+   
+}
+
+.navbar ul
+{
+    float: right;
+    margin-right: 10% ;
+
+    
+}
+.navbar ul li
+{
+    display: inline-block;
+    margin-left: 40px;
+    font-size: large;
+
+} */ 
+
+/* first back ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+
+    margin: 0;
+}
+
+
+/* first back starts */
+
+
+#back1-background-image
+{
+    background-image: url("https://i.ibb.co/6HCznwD/ppp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+#back1
+{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+#settings
+{
+    display: flex;
+    font-size: 25px;
+    margin-top: 30px;
+    color: white;
+    margin-right: 5%;
+
+}
+#complete_navbar
+{
+    display: none;
+
+}
+#back1-navbar li
+{
+    display: inline-block;
+    list-style: none;
+    font-size: large;
+    margin-right: 50px;
+    
+   
+}
+#back1-navbar li a
+{
+    color: aliceblue;
+}
+#back1-name
+{
+  font-weight: bold;
+  margin-left: 6%;
+  font-size: large;
+  color: aliceblue;
+  margin-top: 30px;
+}
+
+#back1-center-text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Roboto', sans-serif;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    
+}
+#back1-center-text-upper
+{
+  
+   font-size: 40px;
+   font-weight: 500; 
+   color: aliceblue;
+}
+
+#back1-center-text-lower-part1
+{
+   font-size: 40px;
+   font-weight: 100;
+   color: aliceblue; 
+}
+#back1-center-text-lower-part2
+{
+   font-size: 40px;
+   font-weight: 300;
+   color: aliceblue; 
+}
+#back1-center-icon-list
+{
+    margin-top: 20px ;
+}
+#icon-list li
+{
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+   
+
+}
+#icon-list li i
+{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#icon-list li a
+{
+    color: black;
+}
+/* first back ends */
+
+
+/* second back starts */
+#back2
+{
+    display: flex;
+    flex-direction: column;
+    column-gap: 35px;
+    margin: 3% 15% ;
+}
+
+#back2-profile-photo
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    width: auto;
+    height: auto;
+    background-color: #fcfcff
+}
+img
+{
+    width: auto;
+    height: 250px;
+}
+
+#back2-aboutme-txt
+{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+
+}
+#back2-aboutme-txt div p
+{
+    font-weight: 100;
+    font-size: small;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.back2-aboutme-skillset
+{
+    background-color: #ccc;
+    margin-bottom: 20px;
+    height: 25px;
+    border-radius: 3px;
+}
+.back2-aboutme-skillset
+{
+    display: flex;
+    flex-direction: row;
+
+}
+#back2-aboutme-buttons
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4%;
+}
+#cv-button
+{
+    color: white;
+    background-color: black;
+    font-weight: lighter;
+    font-size: medium;
+    padding: 5px 15px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+#contact-button
+{
+    outline: black solid;
+    color: black;
+    background-color: white;
+    font-weight: lighter;
+    font-size: medium;
+    padding: 5px 15px;
+    text-decoration: none;
+    margin-right: 20px; 
+}
+/* second back stops */
+
+/* third back starts*/
+
+#back3
+{
+    background-color: #F7F7F7;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4% 0 2% 0; 
+}
+#back3-heading
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 35px;
+
+}
+#back3-part1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    /* row-gap: 12%; */
+
+}
+
+
+.back3-boxes
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 275px;
+    height: 150px;
+    margin: 3% ;
+    border-radius: 2%;
+    background-color: rgb(255,255,255);
+
+}
+#back3-boxes-title
+{
+    font-size: 50;
+    font-weight: bold;
+}
+.fas,.far
+{
+    font-size: 15px;
+    background-color: rgb(242, 233, 233);
+    padding: 1rem;
+    border-radius: 50%;
+
+}
+.back3-boxes div p
+{
+    text-align: center;
+    font-size: small;
+
+}
+/* third back endns */
+
+
+
+
+@media (min-width:1050px)
+{
+    /* third back media queries starts */
+    #back3-part1{
+
+        flex-direction: row;
+    }
+    .back3-boxes
+    {
+        width: 375px;
+        height: 250px;
+        margin: 1%;
+        padding: 4%;
+    }
+    #back3-boxes-title
+    {
+        font-size: 25px;
+        font-weight: bold;
+    }
+     .fas,.far
+    {
+        font-size: 20px;
+    }
+    #back3-heading
+    {
+        font-size: 50px;
+
+    }
+    .back3-boxes div p
+    {
+        font-size: small;
+
+    }
+    /* third back media queries ends */
+
+
+    /* second back media queries starts */
+
+    #back2
+    {
+        flex-direction: row;
+    }
+    #back2-aboutme-buttons
+    {
+        flex-direction: row;
+    }
+    img
+    {
+        width: auto;
+        height: 450px;
+    }
+
+    /* second back media queries ends */
+
+    /* First back media queries starts */
+
+    #complete_navbar
+    {
+        margin-top: 30px;
+        display: flex;
+
+    }      
+    #settings
+    {
+        display: none;
+    }
+        #back1-center-text
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        font-family: 'Roboto', sans-serif;
+        height: 500px;
+        
+        
+    }
+    #back1-center-text-upper
+    {
+    
+    font-size: 80px;
+    font-weight: 500; 
+    color: aliceblue;
+    }
+
+    #back1-center-text-lower-part1
+    {
+    font-size: 80px;
+    font-weight: 100;
+    color: aliceblue; 
+    }
+    #back1-center-text-lower-part2
+    {
+    font-size: 80px;
+    font-weight: 300;
+    color: aliceblue; 
+    }
+    #back1-center-icon-list
+    {
+        margin-top: 20px ;
+    }
+    #icon-list li
+    {
+        list-style: none;
+        display: inline-block;
+        margin-right: 50px;
+    
+
+    }
+    #icon-list li i
+    {
+        text-decoration: none;
+        font-size: 25px;
+    }
+
+    #icon-list li a
+    {
+        color: black;
+    }
+        #back1
+    {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Roboto', sans-serif;
+    }
+        #back1-background-image
+    {
+        background-image: url("https://i.ibb.co/6HCznwD/ppp.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height:100vh;
+    }
+
+
+
+
+
+    /* First back media queries ends */
+
+
+
+}
+    
+
+
